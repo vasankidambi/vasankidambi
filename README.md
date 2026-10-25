@@ -10,8 +10,9 @@ AI security architect focused on agentic AI and MCP security, governance-as-code
 
 | Project | What it shows |
 |---|---|
-| [soc-triage-agent](https://github.com/vasankidambi/soc-triage-agent) | A SOC identity-alert triage agent (LangGraph + MCP) that requires human approval before any containment step, with a governance-as-code layer: threat model, control matrix mapped to OWASP LLM Top 10, MITRE ATLAS and NIST AI RMF, and a validator that checks the governance matches the code. |
-| Agent policy gate *(in progress)* | Research on whether an out-of-band policy gate at the MCP boundary reduces attack success against production agents, at what over-blocking cost, with results emitted as NIST SP 800-53 evidence in OSCAL. |
+| [soc-triage-agent](https://github.com/vasankidambi/soc-triage-agent) | A SOC identity-alert triage agent (LangGraph + MCP) that requires human approval before any containment step, with a governance-as-code layer: threat model, control matrix mapped to OWASP LLM Top 10, MITRE ATLAS and NIST AI RMF, and a validator that checks the governance matches the code. Release [v0.2.0](https://github.com/vasankidambi/soc-triage-agent/releases/tag/v0.2.0) adds an attack test suite and a mutation check, and fixes the audit-trail and scoring issues those tests exposed. |
+
+Currently researching whether an out-of-band policy gate at the MCP boundary reduces attack success against production agents, at what over-blocking cost, with results emitted as NIST SP 800-53 evidence in OSCAL.
 
 <details>
 <summary>Certifications</summary>
